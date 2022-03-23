@@ -5,6 +5,7 @@ import './Product.css'
 
 const Product = ({handleAddToCart, product}) => {
     const {name, seller, img, price, ratings} = product;
+  
 
     
     return (
