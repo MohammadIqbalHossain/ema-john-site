@@ -1,0 +1,83 @@
+.form-container{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 5px #FF9900;
+   
+}
+
+.form-title{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #2A414F;
+    text-align: center;
+    
+}
+
+.form-container label {
+    display: block;
+    margin-left: 5px;
+    font-size: 17px;
+    color: #2A414F;
+    margin-bottom: 5px;
+}
+.form-input-field{
+    width: 415px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid #95A0A7;
+    margin-bottom: 20px;
+}
+.login-btn{
+    width: 415px;
+    height: 55px;
+    font-size: 21px;
+    text-align: center;
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+    color: #2A414F;
+    border-radius: 5px;
+}
+.signup-link{
+    font-size: 17px;
+    color: #2A414F;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+.signup-link a {
+    color: #FF9900;
+    text-decoration: none;
+   
+}
+.google-sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 415px;
+    height: 55px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2A414F;
+    font-weight: 400;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    margin-top: 29px;
+    cursor: pointer;
+   
+    
+}
+
+.google-sign-in span {
+    font-size: 35px;
+    margin-top: 8px;
+}
